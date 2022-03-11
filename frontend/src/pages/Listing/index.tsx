@@ -1,11 +1,11 @@
-import MoviStars from "components/MoviStars";
+import MovieScore from "components/MovieScore";
 import Pagination from "components/Pagination";
 
 function Listing() {
   return (
     <>
       <Pagination />
-      <MoviStars/>
+      <MovieScore />
     </>
   )
 }
